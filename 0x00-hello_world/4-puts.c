@@ -1,12 +1,15 @@
-#include <sudio.h>                                                                                                                             
-int main (void){                                                               
+#include <studio.h>
+
 /**
- * main - prints the string in function
+ * main - Entry point
  *
- * Uses main function
- * print texts
- * Return: (0)
- */	
-       	puts("\" Programming is like building a multilingual puzzle" );       
-	return(0);                                              
-    }                                                                                                                                  
+ * This programme prints texts 
+ *
+ *Returning: Always 0 (successful)
+ *
+ *
+ */
+int main (void) {
+		puts ("\" Programming is like building a multilingual puzzle ");
+					return (0);
+}
