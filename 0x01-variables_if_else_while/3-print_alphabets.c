@@ -4,7 +4,7 @@
  *
  * function main - prints alternating alphabets
  *
- * Returns: 0
+ * Return: 0
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (ch = 'A' ; CH <= 'Z' ; ch++)
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
 	{
 		putchar(ch);
 	}
