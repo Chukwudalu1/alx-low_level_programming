@@ -2,7 +2,7 @@
 /**
 *main print function
 *Deacription: using main function
-*this program prints some texts
+*this program print "with proper grammar, but the outcome is a piece of art" some text
 *return: (0)
 */
 int main(void)
