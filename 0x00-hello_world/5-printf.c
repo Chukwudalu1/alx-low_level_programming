@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
 *main print function
+*
 *Deacription: using main function
 *this program prints some texts
 *Returns: 0
