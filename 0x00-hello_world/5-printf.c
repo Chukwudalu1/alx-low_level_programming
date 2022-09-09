@@ -1,8 +1,9 @@
 #include <stdio.h>
 /**
-*main print function
-*Deacription: using main function
-*this program print  some text
+ * main -Entry
+*Use the function printf
+*Description: using main function
+*this program print with proper grammar, but the outcome is a piece of art,
 *Return: 0
 */
 int main(void)
