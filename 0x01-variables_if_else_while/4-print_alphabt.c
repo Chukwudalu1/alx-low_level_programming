@@ -2,7 +2,7 @@
 /**
  * mai - entery point
  *
- * function main
+ * function main - prints  a to z without q and e
  *
  * Return: 0
  */
@@ -12,7 +12,7 @@ int main(void)
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if (ch!= 'e' && ch != 'q')
+		if (ch!= 'e' && ch  !=  'q')
 		{
 			putchar(ch);
 		}
