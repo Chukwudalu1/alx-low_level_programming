@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point 
+ * main  - entry point 
  *
  * function main - prints alternating alphabets
  *
@@ -18,6 +18,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	putchar( '\n');
+	putchar('\n');
 	return (0);
 }
