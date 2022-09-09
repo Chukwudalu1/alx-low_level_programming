@@ -1,5 +1,5 @@
-#!/bin/bash
-#include <sudioh>
+
+#include <sudio.h>
 
 /**
  * *main - Printing
