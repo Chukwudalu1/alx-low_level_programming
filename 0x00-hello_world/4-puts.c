@@ -1,12 +1,12 @@
-
-#include <sudio.h>
-
+#include <sudio.h>                                                                                                                             
+int main (void){                                                               
 /**
- *main - Printing
+ * main - prints the string in function
  *
- * Return: Always 0 (Success)
- */
-int main (void){
-	puts("\" Programming is like building a multilingual puzzle" );
-		return(0);
-	}
+ * Uses main function
+ * print texts
+ * Return: (0)
+ */	
+       	puts("\" Programming is like building a multilingual puzzle" );       
+	return(0);                                              
+    }                                                                                                                                  
