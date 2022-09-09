@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main  - entry point 
+ *main - entry point 
  *
- * function main - prints alternating alphabets
+ *function main - prints alternating alphabets
  *
- * Return: 0
+ *Return: 0
  */
 int main(void)
 {
