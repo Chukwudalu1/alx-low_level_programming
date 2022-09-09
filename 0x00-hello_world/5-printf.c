@@ -5,7 +5,7 @@
 *
 *Description: using main function
 *this program prints some texts
-Returns: 0
+*Returns: 0
 */
 int main(void)
 {	
