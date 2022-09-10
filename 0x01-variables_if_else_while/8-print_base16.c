@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - entry point 
+ * main - entry point
  *
  * function main - a program that prints all the numbers of base 16.
  *
