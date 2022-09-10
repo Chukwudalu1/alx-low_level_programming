@@ -1,7 +1,9 @@
 #include<stdio.h>
-/** main - entry
+/**
+ * main - entry
  *
- * Function main - prints
+ * function main - prints alternating alphabets
+ *
  * Return: 0
  */
 int main(void)
