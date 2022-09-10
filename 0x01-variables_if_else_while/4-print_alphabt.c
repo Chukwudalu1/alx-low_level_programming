@@ -1,22 +1,21 @@
-#include <stdio.h>
-/**
- * mai - entery point
+#include<studio.h>
+/** main - entry
  *
- * function main - prints  a to z without q and e
- *
+ * Function main - prints
  * Return: 0
  */
 int main(void)
-{
+{	
 	char ch;
 
 	for (ch = 'a' ; ch <= 'z' ; ch++)
 	{
-		if (ch!= 'e' &&  ch  !=  'q')
+		if (ch != 'e' && ch != 'q')
 		{
-			putchar(ch);
+				putchar(ch);
 		}
 	}
 	putchar('\n');
 	return (0);
 }
+
