@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * function main - a program that prints all possible 
+ * function main - a program that prints all possible
  *
  * Return: 0
  */
@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (j = 10; j <= 19; j++)
 		{
-			if ((j %10) > (i % 10))
+			if ((j % 10) > (i % 10))
 			{
 				putchar((i % 10) + '0');
 				putchar((j % 10) + '0');
