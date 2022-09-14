@@ -1,6 +1,7 @@
 #include <stdio.h>
  /**
-  * main - main block
+  * main - Fibonacci
+  * main block
   * Description: Print the um of even Fibonacci numbers up to a fib value 
   * not exceeding 4,000,000.
   * Return: 0
@@ -12,7 +13,7 @@ int main(void)
 
 	while (j < 4000000)
 	{
-		if (j % 2 == 0)
+		if (ij % 2 == 0)
 			total +=j;
 
 		k = j;
