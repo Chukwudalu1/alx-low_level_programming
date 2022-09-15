@@ -1,7 +1,8 @@
 #include <stdio.h>
  /**
-  * main - finds and  prints the sum of even-valued terms
-  * followed by a new line
+  * main - main block
+  * Description: Print the sum of even Fibnacci numbers up yo a fib value
+  * not exceeding 4,000,000.
   * Return: 0
   */
 int main(void)
