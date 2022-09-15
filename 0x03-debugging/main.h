@@ -2,9 +2,11 @@
 #define MAIN_H
 
 #include <stdio.h>
+
 void positive_or_negative(int i);
 int largest_number(int, int, int);
 void print_remaining _days(int, int, int);
-int convert_days(int, int)
+int convert_days(int, int);
+void print_times_table(int n);
 
 #endif /* MAIN_H */ 
