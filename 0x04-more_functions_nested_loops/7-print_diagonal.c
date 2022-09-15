@@ -3,6 +3,8 @@
 /**
  *
  * print_diagonals
+ *
+ * Description: Prints diagonals
  * @n: number of spaces
  * Return: void
  */
