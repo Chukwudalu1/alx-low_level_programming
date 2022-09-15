@@ -2,7 +2,7 @@
 
  /**
   * main - main block
-  * Description: Print the sum of even Fibnacci numbers up yo a fib value
+  * Description: Print the sum of even Fibonacci numbers up to a fib value
   * not exceeding 4,000,000.
   * Return: 0
   */
