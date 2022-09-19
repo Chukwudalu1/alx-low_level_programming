@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * prin_array - print `n` elements of an array of integers
+ * print_array - print `n` elements of an array of integers
  * @a: int type array pointer
  * @n: int type intger
  * Description: Numbers must be seperated by comma and space.
