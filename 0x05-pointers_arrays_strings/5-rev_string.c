@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse a string
- * @s: char array string type 
+ * @s: char array string type
  */
 
 void rev_string(char *s)
@@ -14,7 +14,7 @@ void rev_string(char *s)
 		;
 
 	l = i;
-	for (i--, c = 0; c< l / 2; i--, c++)
+	for (i--, c = 0; c < l / 2; i--, c++)
 	{
 		h = s[c];
 		s[c] = s[i];
