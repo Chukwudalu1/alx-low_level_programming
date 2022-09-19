@@ -35,7 +35,7 @@ int _atoi(char *s)
 			break;
 	}
 }
-if (p < 0)
+	if (p < 0)
 	h *= -1;
 
 	return (h);
