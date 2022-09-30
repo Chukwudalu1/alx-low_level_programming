@@ -6,10 +6,10 @@
  * argv: argumrnt vector
  * Return: 0n success 0
  */
-int main(int argc, char *argv[] )
+int main(int argc, char *argv[])
 {
 	(void) argv;
-	printf("%i\n",(argc - 1));
+	printf("%i\n", (argc - 1));
 
 	return (0);
 }
