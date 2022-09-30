@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print to return integer 
+ * main - print to return integer
  * @argc: argument count
  * @argv: argument vector
  * Return: 0
  */
-int main(int argc, char *arg[])
+int main(int argc, char *argv[])
 {
 	(void) argc;
 
