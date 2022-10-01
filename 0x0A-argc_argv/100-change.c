@@ -3,11 +3,11 @@
 
 /**
  * main - function
- * @argc: argument count 
+ * @argc: argument count
  * argv: argument vector
  * Return: 0n success 0 else 1
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int i, total, change, aux;
 	int coin[] = {25, 10, 5, 2, 1};
