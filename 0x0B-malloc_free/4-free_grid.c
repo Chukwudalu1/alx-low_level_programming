@@ -8,12 +8,12 @@
  *
  * Return: Void
  */
-void free_grind(int **grid, int height)
+void free_grid(int **grid, int height)
 {
-	if (grid != NULL && height  !=0)
+	if (grid != NULL && height  !=0 i)
 	{
 		for (; height >= 0; height--)
-			free(grind[height]);
+			free(grid[height]);
 		free(grid);
 	}
 }
