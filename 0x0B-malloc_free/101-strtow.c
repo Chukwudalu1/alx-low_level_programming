@@ -37,11 +37,11 @@ int count_word(char *s)
 char **strtow(char *str)
 {
 	char **matrix, *tmp;
-	int i, k, = 0, len = 0, words, c = 0, start, end;
+	int i, k = 0, len = 0, words, c = 0, start, end;
 
 	while (*(str + len))
 		len++;
-	words = count_words(str);
+	words = count_word(str);
 	if (words == 0)
 		return (NULL);
 
@@ -49,7 +49,7 @@ char **strtow(char *str)
 	if (matrix == NULL)
 		return (NULL);
 
-	for (i =0; i <= len; i++)
+	for (i = 0; i <= len; i++)
 	{
 		if (str[i] == ' ' || str[i] == '\0')
 		{
@@ -64,11 +64,11 @@ char **strtow(char *str)
 				*tmp = '\0';
 				matrix[k] = tmp - c;
 				k++;
-				c= 0;
+				c = 0;
 			}
 		}
-		else oif (c++ == 0)
-			start = 1;
+		else if (c++ == 0)
+			start = i;
 	}
 
 	matrix[k] = NULL;
