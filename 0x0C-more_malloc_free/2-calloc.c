@@ -5,7 +5,7 @@
  * @s: string
  * @b: input
  * @n: bytes
- * Return: string 
+ * Return: string
  */
 char *_memset(char *s, char b, unsigned int n)
 {
@@ -25,13 +25,15 @@ char *_memset(char *s, char b, unsigned int n)
  * Return: pointer
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
-{void *p;
+{
+	void *p;
 
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	p = malloc(nmemb * size);
 
-	if (p == NULL);
+	if (p == NULL)
+		return (NULL)
 	_memset(p, 0, (nmemb * size));
 	return (p);
 }
