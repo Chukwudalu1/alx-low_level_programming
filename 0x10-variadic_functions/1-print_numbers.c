@@ -3,10 +3,10 @@
 
 /**
  * print_numbers - prints integers
- * @: seperating string
+ * @separator: seperating string
  * @n: number of integers
  */
-void prrint_numbers(const char *separator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int count;
